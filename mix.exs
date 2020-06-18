@@ -4,7 +4,7 @@ defmodule NewRelicTools.MixProject do
   def project do
     [
       app: :new_relic_tools,
-      version: "1.0.1",
+      version: "1.0.2",
       elixir: "~> 1.8",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
@@ -31,7 +31,7 @@ defmodule NewRelicTools.MixProject do
 
   defp package do
     [
-      license: ["MIT"],
+      licenses: ["MIT"],
       links: %{
         "GitHub" => "https://github.com/VitorTrin/new_relic_tools",
         "New Relic Agent" => "https://github.com/newrelic/elixir_agent"
