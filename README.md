@@ -4,8 +4,7 @@ Collection of tools to complement [new_relic_agent](https://github.com/newrelic/
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `new_relic_tools` to your list of dependencies in `mix.exs`:
+The package can be installed by adding `new_relic_tools` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
