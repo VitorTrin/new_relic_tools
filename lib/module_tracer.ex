@@ -22,12 +22,12 @@ defmodule NewRelicTools.ModuleTracer do
         # Yes, this is the right order. The latest @on_definition happens first
         # No, I didn't knew this before
         use NewRelic.Tracer
-        @on_definition {NewRelic.ModuleTracer, :all}
+        @on_definition {NewRelicTools.ModuleTracer, :all}
       end
     else
       quote do
         use NewRelic.Tracer
-        @on_definition {NewRelic.ModuleTracer, :only_public}
+        @on_definition {NewRelicTools.ModuleTracer, :only_public}
       end
     end
   end
