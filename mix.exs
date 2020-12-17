@@ -4,7 +4,7 @@ defmodule NewRelicTools.MixProject do
   def project do
     [
       app: :new_relic_tools,
-      version: "1.0.2",
+      version: "1.1.0",
       elixir: "~> 1.8",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
