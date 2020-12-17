@@ -4,7 +4,7 @@ defmodule NewRelicTools.MixProject do
   def project do
     [
       app: :new_relic_tools,
-      version: "1.0.2",
+      version: "1.1.0",
       elixir: "~> 1.8",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
@@ -24,7 +24,7 @@ defmodule NewRelicTools.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:new_relic_agent, "~> 1.18"},
+      {:new_relic_agent, "~> 1.23.0-rc.5"},
       {:ex_doc, "~> 0.22", only: :dev, runtime: false}
     ]
   end
